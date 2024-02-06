@@ -1,5 +1,7 @@
 var gamePattern = [];
 
+var  userClickedPattern = [];
+
 var buttonColours = ["red", "blue", "green", "yellow" ];  // the array for button colour
 
 
@@ -22,3 +24,10 @@ function nextSequence() {
 
 
 }
+
+$("btn").click(function () { 
+
+    var userChosenColour = $(this).attr("id)"); 
+
+    userClickedPattern.push(userClickedPattern);
+});
