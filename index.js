@@ -2,6 +2,10 @@ var gamePattern = [];
 
 var  userClickedPattern = [];
 
+var level = 0;
+
+var started = false;
+
 var buttonColours = ["red", "blue", "green", "yellow" ];  // the array for button colour
 
 
@@ -51,3 +55,14 @@ function animatePress(currentColour) {
 
     }, 100);
 }
+
+
+$(ducument).keypress(function () {
+
+    if (!started) {
+        $("#level-title").text("level" + level);
+        nextSequence();
+        started = true;
+
+    }
+});
