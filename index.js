@@ -31,3 +31,12 @@ $("btn").click(function () {
 
     userClickedPattern.push(userClickedPattern);
 });
+
+
+function playSound(name) {
+
+    var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
+
+    audio.play();
+    
+}
