@@ -1,5 +1,5 @@
 
-var buttonColours = ["red", "blue", "green", "yellow"];
+var buttonColours = ["red", "blue", "green", "yellow"]; // blok colours
 
 var gamePattern = [];
 var userClickedPattern = [];
@@ -20,7 +20,7 @@ $(".btn").click(function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
 
-  playSound(userChosenColour);
+  playSound(userChosenColour); // activates the sound when clicked
   animatePress(userChosenColour);
 
   checkAnswer(userClickedPattern.length-1);
@@ -35,7 +35,7 @@ function checkAnswer(currentLevel) {
 
       if (userClickedPattern.length === gamePattern.length){
         setTimeout(function () {
-          nextSequence();
+          nextSequence(); // next level until fail
         }, 1000);
       }
 
