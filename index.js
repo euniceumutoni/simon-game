@@ -79,7 +79,7 @@ function playSound(name) {
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
-    $("#" + currentColor).removeClass("pressed");
+    $("#" + currentColor).removeClass("pressed"); // removes the animation when pressed after 100
   }, 100);
 }
 
