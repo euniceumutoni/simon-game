@@ -1,5 +1,5 @@
 
-var buttonColours = ["red", "blue", "green", "yellow"]; // blok colours
+var buttonColours = ["red", "blue", "green", "yellow"]; // blok colors
 
 var gamePattern = [];
 var userClickedPattern = [];
