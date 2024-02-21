@@ -83,7 +83,7 @@ function animatePress(currentColor) {
   }, 100);
 }
 
-function startOver() {
+function startOver() { // When you got it false, it should let you start over
 
   level = 0;
   gamePattern = [];
