@@ -13,8 +13,12 @@ This game uses jQuery in the js document to make it easier to read and easier fo
 Remember the block; if you passed, add that sequence to the next one until...
 
 
-#### Ways to improve
+## Ways to improve
 
-#### Point 1
+####  1
 
-Add a start button
+Add a start button.
+
+#### 2
+
+Refresh automatically when you press the wrong one, or add a prompt that asks the user if they want to try again.
