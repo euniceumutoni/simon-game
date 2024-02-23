@@ -6,5 +6,8 @@ This game uses jQuery in the js document to make it easier to read and easier fo
 
  #### Step 1
  
- Wait until a block is put forward. If perhaps you missed it, refresh the page.
+ Wait until a block is put forward. If you missed it, refresh the page.
 
+#### Step 2
+
+Remember the block; if you passed, add that sequence to the next one until...
