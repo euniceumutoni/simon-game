@@ -4,4 +4,4 @@ This game uses jQuery in the js document to make it easier to read and easier fo
 
 ## How to play
 
-## First
+Wait until a block is put forward
