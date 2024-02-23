@@ -8,5 +8,5 @@ This game uses jQuery in the js document to make it easier to read and easier fo
 This was definitely a fun game to program, there will definitely be more to come soon.
 
 
-
+### How to play
 
