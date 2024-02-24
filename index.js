@@ -1,5 +1,5 @@
 
-var buttonColours = ["red", "blue", "green", "yellow"]; // blok colors
+var buttonColours = ["red", "blue", "green", "yellow"]; // block colors
 
 var gamePattern = [];
 var userClickedPattern = [];
@@ -17,7 +17,7 @@ $(document).keypress(function() {
 
 $(".btn").click(function() {
 
-  var userChosenColour = $(this).attr("id");
+  var userChosenColour = $(this).attr("id"); 
   userClickedPattern.push(userChosenColour);
 
   playSound(userChosenColour); // activates the sound when clicked
